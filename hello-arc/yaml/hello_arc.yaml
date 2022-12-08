@@ -17,7 +17,7 @@ metadata:
   name: hello-arc
   namespace: hello-arc
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: hello-arc
@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Replica 1 change Hi Mark 1:1 - Welcome to Azure Arc GitOps Demo!
+          value: v5 - Welcome to Azure Arc GitOps Demo!
