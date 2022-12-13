@@ -7,6 +7,6 @@ spec:
   service: bookstore.bookstore
   backends:
   - service: bookstore
-    weight: 80
+    weight: 100
   - service: bookstore-v2
-    weight: 20
+    weight: 00
