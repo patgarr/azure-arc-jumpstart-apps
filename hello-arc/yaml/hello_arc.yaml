@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: v1 - App deployed - awaiting new deployment - Welcome to Azure Arc GitOps Demo!
+          value: v2 - New version deployed - Hello Kam demo - Welcome to Azure Arc GitOps Demo!
